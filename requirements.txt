@@ -1,0 +1,25 @@
+# DeepSeek Janus Requirements
+# For Mac with Apple Silicon (M1/M2/M3)
+
+# Core dependencies
+torch>=2.0.0
+transformers>=4.38.2
+accelerate>=0.20.0
+
+# Vision and image processing
+torchvision
+timm>=0.9.16
+pillow>=9.0.0
+einops
+
+# Janus specific
+sentencepiece
+attrdict
+
+# Utilities
+numpy
+matplotlib
+tqdm
+
+# Optional but recommended for Mac
+psutil  # For memory monitoring
