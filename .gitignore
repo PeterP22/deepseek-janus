@@ -1,0 +1,36 @@
+# Claude Code directory
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model files (if you don't want to track large model files)
+*.bin
+*.pth
+*.pt
+*.safetensors
+
+# Generated samples (optional - remove if you want to track them)
+generated_samples/
